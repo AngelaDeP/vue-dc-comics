@@ -7,6 +7,9 @@
         <MyContent/>
         <MyLinks/>
       </main>
+      <footer>
+        <MyTopFooter/>
+      </footer>
   </div>
 </template>
 
@@ -14,13 +17,15 @@
 import MyHeader from './components/MyHeader.vue'
 import MyContent from './components/MyContent.vue'
 import MyLinks from './components/MyLinks.vue'
+import MyTopFooter from './components/MyTopFooter.vue'
 
 export default {
   name: 'App',
   components: {
     MyHeader,
     MyContent,
-    MyLinks
+    MyLinks,
+    MyTopFooter
   }
 }
 </script>
