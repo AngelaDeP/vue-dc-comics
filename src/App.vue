@@ -9,6 +9,7 @@
       </main>
       <footer>
         <MyTopFooter/>
+        <MyBottomFooter/>
       </footer>
   </div>
 </template>
@@ -18,6 +19,7 @@ import MyHeader from './components/MyHeader.vue'
 import MyContent from './components/MyContent.vue'
 import MyLinks from './components/MyLinks.vue'
 import MyTopFooter from './components/MyTopFooter.vue'
+import MyBottomFooter from './components/MyBottomFooter.vue'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     MyHeader,
     MyContent,
     MyLinks,
-    MyTopFooter
+    MyTopFooter,
+    MyBottomFooter
   }
 }
 </script>
