@@ -5,6 +5,7 @@
       </header>
       <main>
         <MyContent/>
+        <MyLinks/>
       </main>
   </div>
 </template>
@@ -12,12 +13,14 @@
 <script>
 import MyHeader from './components/MyHeader.vue'
 import MyContent from './components/MyContent.vue'
+import MyLinks from './components/MyLinks.vue'
 
 export default {
   name: 'App',
   components: {
     MyHeader,
-    MyContent
+    MyContent,
+    MyLinks
   }
 }
 </script>

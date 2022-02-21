@@ -1,0 +1,33 @@
+.links-section {
+    background-color: #0282F9;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.links-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 50px 20px;
+}
+
+.links-navbar img {
+    width: 80px;
+}
+
+.links-navbar a {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.links-navbar a span {
+    margin-left: 20px;
+}
