@@ -12,7 +12,10 @@
                     <span>{{comic.series}}</span>
                 </div>
             </div>
-        </div>   
+        </div>
+        <div class="btn-load">
+            <button>LOAD MORE</button>
+        </div>
     </div>
 </template>
 
